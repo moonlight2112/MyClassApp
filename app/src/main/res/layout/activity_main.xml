@@ -1,19 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="< Back" />
+
+    <ImageView
+        android:id="@+id/Logo1"
+        android:layout_width="30mm"
+        android:layout_height="30mm"
+        android:src="@drawable/untitled_design_1__removebg_preview" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text=" My Class" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a user-friendly nursery management app designed to enhance learning, simplify administration, and improve communication between teachers, students, and administrators." />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Choose Our App?" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="> For Admins: Effortlessly manage teachers and students, track student progress and oversee nursery operations." />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">For Teachers: Easily mark attendance, create student reports and design engaging activities." />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">For Students: Access learning activoities, view reports and participate in fun and interactive lessons." />
+
+    <Button
+        android:id="@+id/getstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Start" />
+
+</LinearLayout>
