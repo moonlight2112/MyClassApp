@@ -12,54 +12,97 @@
         android:id="@+id/Back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="< Back" />
+        android:layout_marginRight="330dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="< Back"
+        android:textAlignment="viewStart" />
 
     <ImageView
         android:id="@+id/Logo1"
         android:layout_width="30mm"
         android:layout_height="30mm"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
         android:src="@drawable/untitled_design_1__removebg_preview" />
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" My Class" />
+        android:layout_marginTop="20dp"
+        android:text=" My Class"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="a user-friendly nursery management app designed to enhance learning, simplify administration, and improve communication between teachers, students, and administrators." />
+        android:layout_marginTop="10dp"
+        android:text="a user-friendly nursery management app designed to enhance learning, simplify administration, and improve communication between teachers, students, and administrators."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#2196F3"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/text3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Why Choose Our App?" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="#87DAFF"
+        android:text="Why Choose Our App?"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="> For Admins: Effortlessly manage teachers and students, track student progress and oversee nursery operations." />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#87DAFF"
+        android:text="> For Admins: Effortlessly manage teachers and students, track student progress and oversee nursery operations."
+        android:textAlignment="center"
+        android:textColor="#2196F3" />
 
     <TextView
         android:id="@+id/text5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=">For Teachers: Easily mark attendance, create student reports and design engaging activities." />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#87DAFF"
+        android:text=">For Teachers: Easily mark attendance, create student reports and design engaging activities."
+        android:textAlignment="center"
+        android:textColor="#2196F3" />
 
     <TextView
         android:id="@+id/text6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=">For Students: Access learning activoities, view reports and participate in fun and interactive lessons." />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#87DAFF"
+        android:text=">For Students: Access learning activoities, view reports and participate in fun and interactive lessons."
+        android:textAlignment="center"
+        android:textColor="#2196F3" />
 
     <Button
         android:id="@+id/getstart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Get Start" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#35A1FB"
+        android:text="Get Start"
+        android:textColor="#FEFFFFFF" />
 
 </LinearLayout>
